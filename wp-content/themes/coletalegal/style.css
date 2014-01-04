@@ -1,0 +1,159 @@
+/*
+	Theme Name: Coleta Legal
+	Theme URI: http://www.coletalegal.com.br
+	Description: Tema desenvolvido para o projeto de TCC Coleta Legal
+	Author URI: https://www.facebook.com/FranksonC 
+	Version: 1.0
+*/
+@font-face {
+    font-family: 'Amaranth';
+    src: url('fonts/Amaranth-Bold.otf');
+    /*src: url('fonts/museosans_900.eot?#iefix') format('embedded-opentype'),
+         url('fonts/museosans_900.woff') format('woff'),
+         url('fonts/museosans_900.ttf') format('truetype'),
+         url('fonts/museosans_900.svg#museosans_900') format('svg');*/
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{	margin:0; 
+	padding:0;
+	vertical-align:baseline;
+	list-style:none;
+}
+
+.box{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    
+}
+
+.menu-full{
+	width: 100%;
+	float: left;
+	position: fixed;
+	background-color: #87CEEB;
+	margin: 0 auto;
+	height: 100px;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 5px 0px #666666;
+}
+
+.menu-full ul{
+	margin: 0 auto;
+	width: 960px;
+	padding: 0px 0px;
+	list-style: none;
+}
+
+.menu-full ul li{
+	float: left;
+	margin: 0px 0px;
+	text-align: center;
+	display: inline;
+}
+
+.menu-full ul li a{
+    padding: 21px 0;
+    display: inline-block;
+    color: #FFF;
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Amaranth;
+    font-size: 22px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.menu-full ul li a:hover{
+	color: #000000;
+	border-bottom: 1px solid white;    
+    width: 150px;
+    height: 30px;
+}
+
+.menu-full img{
+	border: none; 
+	color: transparent;
+	border-bottom: none;
+	width: 120px;
+	float: left;
+	margin-left: 40px;
+	margin-top: -20px;
+}
+
+.content{
+	background-color: white;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+.content-conteudo{
+	float: left;
+	width: 100%;
+	margin-top: 133px;
+	margin: 100px auto;
+
+}
+
+.content-conteudo header{
+	font-family: Amaranth;
+	float: left;
+	margin: 0 auto;
+	margin-top: -5px;
+	background-image: url('img/fundo-title2.png');
+	font-size: 35px;
+	width: 100%;
+	background-color: #66FFFF;
+}
+
+.content-conteudo h2{
+	float: left;
+	margin: 70px 290px;
+	line-height: 20px;	
+	color: white;
+}
+
+.content-conteudo img{
+	float: right;
+	margin-top: -40px;
+	margin-left: 650px;
+	position: fixed;
+}
+
+.img-topo{
+	margin: 90px auto;
+	float: left;
+	width: 100%;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 4px 5px 0px #666666;
+}
+
+.clear{
+	clear: both;
+} 
+.footer-full{
+	width: 100%;
+	bottom: 0;
+	float: left;
+	background-color: #87CEEB;
+	position: absolute;
+	height: 100px;
+	-webkit-box-shadow: 0px -2px 5px 0px rgba(55,56,56,1);
+	-moz-box-shadow: 0px -2px 5px 0px rgba(55,56,56,1);
+	box-shadow: 0px -2px 5px 0px rgba(55,56,56,1);
+}
+
+

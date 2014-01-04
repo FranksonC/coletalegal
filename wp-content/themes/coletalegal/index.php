@@ -1,0 +1,1 @@
+<?php get_header(); ?>		<div class="box">		<img src="<?php bloginfo('template_url'); ?>/img/topo.png" class="img-topo">		<div class="content">			<div class="content-conteudo">						</div><!-- div content-conteudo -->			</div><!-- div content -->			<?php get_footer(); ?>	</div><!-- div box -->
